@@ -1,267 +1,284 @@
 # -watchvaluee.
 <!DOCTYPE html>
+
 <html lang="it">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WatchValue.it | Le migliori offerte di orologi</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="UTF-8">
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #0b0b0b;
-      color: #ffffff;
-      line-height: 1.6;
-    }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    a {
-      text-decoration: none;
-    }
+<title>WatchValue.it</title>
 
-    /* HEADER */
-    header {
-      background: linear-gradient(135deg, #0b0b0b, #1c1c1c);
-      padding: 60px 20px 40px;
-      text-align: center;
-      border-bottom: 1px solid #222;
-    }
+<style>
 
-    header h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-    }
+* {
 
-    header h1 span {
-      color: #d4af37; /* oro */
-    }
+  margin: 0;
 
-    header p {
-      color: #b5b5b5;
-      max-width: 700px;
-      margin: 0 auto;
-      font-size: 1.1rem;
-    }
+  padding: 0;
 
-    /* CONTAINER */
-    .container {
-      max-width: 1200px;
-      margin: auto;
-      padding: 50px 20px;
-    }
+  box-sizing: border-box;
 
-    /* FILTRI */
-    .filters {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-bottom: 40px;
-    }
+}
 
-    .filter-btn {
-      background: #1a1a1a;
-      border: 1px solid #333;
-      color: #fff;
-      padding: 10px 18px;
-      border-radius: 999px;
-      cursor: pointer;
-    }
+body {
 
-    .filter-btn:hover {
-      border-color: #d4af37;
-      color: #d4af37;
-    }
+  font-family: Arial, sans-serif;
 
-    /* GRID */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 30px;
-    }
+  background: #0a0a0a;
 
-    /* CARD */
-    .card {
-      background: #151515;
-      border: 1px solid #222;
-      border-radius: 18px;
-      overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-      transition: transform 0.25s ease, border-color 0.25s ease;
-    }
+  color: white;
 
-    .card:hover {
-      transform: translateY(-6px);
-      border-color: #d4af37;
-    }
+}
 
-    .card img {
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      display: block;
-    }
+header {
 
-    .card-content {
-      padding: 24px;
-    }
+  background: linear-gradient(to right, #000, #111);
 
-    .brand {
-      display: inline-block;
-      font-size: 0.8rem;
-      color: #d4af37;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin-bottom: 10px;
-    }
+  padding: 60px 20px;
 
-    .card h2 {
-      font-size: 1.4rem;
-      margin-bottom: 12px;
-      color: #ffffff;
-    }
+  text-align: center;
 
-    .price {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #d4af37;
-      margin-bottom: 12px;
-    }
+}
 
-    .description {
-      color: #b5b5b5;
-      margin-bottom: 20px;
-      font-size: 0.95rem;
-    }
+header h1 {
 
-    .btn {
-      display: inline-block;
-      width: 100%;
-      text-align: center;
-      padding: 14px 20px;
-      background: #d4af37;
-      color: #000;
-      font-weight: 700;
-      border-radius: 10px;
-      transition: background 0.2s ease;
-    }
+  font-size: 48px;
 
-    .btn:hover {
-      background: #e7c55a;
-    }
+  color: #d4af37;
 
-    /* FOOTER */
-    footer {
-      text-align: center;
-      color: #777;
-      padding: 40px 20px;
-      border-top: 1px solid #222;
-      margin-top: 50px;
-      font-size: 0.9rem;
-    }
+}
 
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2.2rem;
-      }
+header p {
 
-      .card img {
-        height: 220px;
-      }
-    }
-  </style>
+  margin-top: 10px;
+
+  color: #cccccc;
+
+  font-size: 18px;
+
+}
+
+.container {
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 40px 20px;
+
+}
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  gap: 30px;
+
+}
+
+.card {
+
+  background: #151515;
+
+  border: 1px solid #2a2a2a;
+
+  border-radius: 16px;
+
+  overflow: hidden;
+
+}
+
+.card img {
+
+  width: 100%;
+
+  height: 250px;
+
+  object-fit: cover;
+
+}
+
+.card-content {
+
+  padding: 20px;
+
+}
+
+.brand {
+
+  color: #d4af37;
+
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+  font-weight: bold;
+
+}
+
+.card h2 {
+
+  margin: 10px 0;
+
+  font-size: 24px;
+
+}
+
+.price {
+
+  font-size: 32px;
+
+  color: #d4af37;
+
+  font-weight: bold;
+
+  margin: 10px 0;
+
+}
+
+.description {
+
+  color: #cccccc;
+
+  margin-bottom: 20px;
+
+}
+
+.btn {
+
+  display: block;
+
+  text-align: center;
+
+  background: #d4af37;
+
+  color: black;
+
+  text-decoration: none;
+
+  padding: 14px;
+
+  border-radius: 8px;
+
+  font-weight: bold;
+
+}
+
+footer {
+
+  text-align: center;
+
+  color: #777;
+
+  padding: 40px 20px;
+
+}
+
+</style>
+
 </head>
+
 <body>
 
-  <header>
-    <h1>Watch<span>Value</span>.it</h1>
-    <p>
-      Le migliori offerte di MoonSwatch, Seiko e Tissot trovate su Vinted.
-      Aggiornato ogni giorno.
-    </p>
-  </header>
+<header>
 
-  <main class="container">
+  <h1>WatchValue.it</h1>
 
-    <div class="filters">
-      <button class="filter-btn">MoonSwatch</button>
-      <button class="filter-btn">Seiko</button>
-      <button class="filter-btn">Tissot</button>
+  <p>Le migliori offerte di orologi su Vinted</p>
+
+</header>
+
+<div class="container">
+
+  <div class="grid">
+
+    <div class="card">
+
+      <img src="https://via.placeholder.com/600x400?text=MoonSwatch" alt="MoonSwatch">
+
+      <div class="card-content">
+
+        <div class="brand">MoonSwatch</div>
+
+        <h2>Mission to Mercury</h2>
+
+        <div class="price">220 €</div>
+
+        <p class="description">Originale con scatola e documenti.</p>
+
+        <a class="btn" href="https://www.vinted.it" target="_blank">
+
+          Vai all'annuncio
+
+        </a>
+
+      </div>
+
     </div>
 
-    <section class="grid">
+    <div class="card">
 
-      <!-- CARD 1 -->
-      <article class="card">
-        <img src="https://via.placeholder.com/600x400?text=MoonSwatch" alt="MoonSwatch Mission to Mercury">
-        <div class="card-content">
-          <span class="brand">MoonSwatch</span>
-          <h2>Mission to Mercury</h2>
-          <p class="price">220 €</p>
-          <p class="description">
-            Originale con scatola e documenti. Prezzo molto interessante.
-          </p>
-          <a class="btn"
-             href="https://www.vinted.it"
-             target="_blank"
-             rel="noopener noreferrer">
-            Vai all'annuncio
-          </a>
-        </div>
-      </article>
+      <img src="https://via.placeholder.com/600x400?text=Seiko+5" alt="Seiko 5">
 
-      <!-- CARD 2 -->
-      <article class="card">
-        <img src="https://via.placeholder.com/600x400?text=Seiko+5" alt="Seiko 5 Automatic">
-        <div class="card-content">
-          <span class="brand">Seiko</span>
-          <h2>Seiko 5 Automatic</h2>
-          <p class="price">95 €</p>
-          <p class="description">
-            Ottimo entry level automatico in condizioni eccellenti.
-          </p>
-          <a class="btn"
-             href="https://www.vinted.it"
-             target="_blank"
-             rel="noopener noreferrer">
-            Vai all'annuncio
-          </a>
-        </div>
-      </article>
+      <div class="card-content">
 
-      <!-- CARD 3 -->
-      <article class="card">
-        <img src="https://via.placeholder.com/600x400?text=Tissot+PRX" alt="Tissot PRX">
-        <div class="card-content">
-          <span class="brand">Tissot</span>
-          <h2>Tissot PRX Quartz</h2>
-          <p class="price">260 €</p>
-          <p class="description">
-            Ottimo prezzo per un modello molto richiesto.
-          </p>
-          <a class="btn"
-             href="https://www.vinted.it"
-             target="_blank"
-             rel="noopener noreferrer">
-            Vai all'annuncio
-          </a>
-        </div>
-      </article>
+        <div class="brand">Seiko</div>
 
-    </section>
-  </main>
+        <h2>Seiko 5 Automatic</h2>
 
-  <footer>
-    © 2025 WatchValue.it — Selezione indipendente di offerte trovate su Vinted.
-  </footer>
+        <div class="price">95 €</div>
+
+        <p class="description">Ottimo entry level automatico.</p>
+
+        <a class="btn" href="https://www.vinted.it" target="_blank">
+
+          Vai all'annuncio
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <img src="https://via.placeholder.com/600x400?text=Tissot+PRX" alt="Tissot PRX">
+
+      <div class="card-content">
+
+        <div class="brand">Tissot</div>
+
+        <h2>Tissot PRX Quartz</h2>
+
+        <div class="price">260 €</div>
+
+        <p class="description">Prezzo molto interessante.</p>
+
+        <a class="btn" href="https://www.vinted.it" target="_blank">
+
+          Vai all'annuncio
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+
+  © 2025 WatchValue.it
+
+</footer>
 
 </body>
+
 </html>
